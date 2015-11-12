@@ -1,5 +1,5 @@
 class String
   def reverse_sentence
-    puts "here"
+    self.split(" ").reverse.join(" ")
   end
 end
